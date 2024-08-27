@@ -1,7 +1,8 @@
-//public class Func{
-//    public static void main(String[] args){
+ public class main{
+    public static void main(String[] args){
+  
+  Calculadora cal = new Calculadora();
 
-        Calculadora cal = new Calculadora();
         double resultado = cal.soma(10,5);
         System.out.println(resultado);
         
@@ -13,9 +14,7 @@
 
         double resultado4 = cal.divisao(10,5);
         System.out.println(resultado4);
-
-        
-
-
-//    }
-//}
+  
+  
+  }
+ }
