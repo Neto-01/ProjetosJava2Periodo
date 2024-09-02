@@ -1,11 +1,17 @@
+import java.util.Scanner;
 public class Impressao{
 
   public static void main(String[] args){
-    String nome = "Elefante";
+      Scanner texto = new Scanner(System.in);
+      String nome;
+      System.out.println("Digite uma palavra:");
+      nome = texto.nextLine();
 
     System.out.println("Tam. da String:" + " " + nome.length());
     System.out.println("String maiúsculo:" + " " + nome.toUpperCase());
     System.out.println("Num. de vogais:" + " " + contarVogais(nome));
+
+    texto.close();
   }
   
   public static int contarVogais(String str){
